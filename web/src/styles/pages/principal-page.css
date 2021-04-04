@@ -195,21 +195,32 @@
     width: 100%;
 }
 
-.all-products .cards .card .card-content .product-name, .product-clefcoins {
+.all-products .cards .card .card-content .product-name, .product-clefcoins, .product-seller {
     margin-bottom: 10px;
 }
 
-.all-products .cards .card .card-content .product-name p, .product-clefcoins p {
+.all-products .cards .card .card-content .product-seller {
+    display: flex;
+    flex-direction: column;
     color: #ffffff;
 }
 
-.all-products .cards .card .card-content .product-brand p {
-    color: #260303;
+.all-products .cards .card .card-content .product-seller .seller {
     font: 700 17px Quicksand, sans-serif;
+    margin-bottom: 2px;
+}
+
+.all-products .cards .card .card-content .product-name p {
+    color: #ffffff;
+    font: 700 17px Quicksand, sans-serif;
+}
+
+.all-products .cards .card .card-content .product-brand {
     margin-bottom: 10px;
 }
 
-.all-products .cards .card .card-content .product-clefcoins p {
+.all-products .cards .card .card-content .product-brand p, .product-clefcoins p {
+    color: #5F0708;
     font: 700 17px Quicksand, sans-serif;
 }
 

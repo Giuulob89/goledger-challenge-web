@@ -97,11 +97,19 @@ function App() {
                 <img src={guitarImg} alt="Electroacoustic guitar" />
               </div>
               <div className="division-bar"></div>
+              <div className="product-brand">
+                <p>Brand A</p>
+              </div>
               <div className="product-name">
                 <p>Electroacoustic guitar</p>
               </div>
-              <div className="product-brand">
-                <p>Brand A</p>
+              <div className="product-seller">
+                <div className="seller">
+                  <p>Seller: </p>
+                </div>
+                <div className="seller-name">
+                  <p>Fulano de Tal de Oliveira</p>
+                </div>
               </div>
               <div className="product-clefcoins">
                 <img src={clefImg} alt="clefcoin" />
@@ -116,11 +124,19 @@ function App() {
                 <img src={guitarImg} alt="Electroacoustic guitar" />
               </div>
               <div className="division-bar"></div>
+              <div className="product-brand">
+                <p>Brand A</p>
+              </div>
               <div className="product-name">
                 <p>Electroacoustic guitar</p>
               </div>
-              <div className="product-brand">
-                <p>Brand A</p>
+              <div className="product-seller">
+                <div className="seller">
+                  <p>Seller: </p>
+                </div>
+                <div className="seller-name">
+                  <p>Fulano de Tal de Oliveira</p>
+                </div>
               </div>
               <div className="product-clefcoins">
                 <img src={clefImg} alt="clefcoin" />
@@ -135,11 +151,19 @@ function App() {
                 <img src={guitarImg} alt="Electroacoustic guitar" />
               </div>
               <div className="division-bar"></div>
+              <div className="product-brand">
+                <p>Brand A</p>
+              </div>
               <div className="product-name">
                 <p>Electroacoustic guitar</p>
               </div>
-              <div className="product-brand">
-                <p>Brand A</p>
+              <div className="product-seller">
+                <div className="seller">
+                  <p>Seller: </p>
+                </div>
+                <div className="seller-name">
+                  <p>Fulano de Tal de Oliveira</p>
+                </div>
               </div>
               <div className="product-clefcoins">
                 <img src={clefImg} alt="clefcoin" />
@@ -154,11 +178,19 @@ function App() {
                 <img src={guitarImg} alt="Electroacoustic guitar" />
               </div>
               <div className="division-bar"></div>
+              <div className="product-brand">
+                <p>Brand A</p>
+              </div>
               <div className="product-name">
                 <p>Electroacoustic guitar</p>
               </div>
-              <div className="product-brand">
-                <p>Brand A</p>
+              <div className="product-seller">
+                <div className="seller">
+                  <p>Seller: </p>
+                </div>
+                <div className="seller-name">
+                  <p>Fulano de Tal de Oliveira</p>
+                </div>
               </div>
               <div className="product-clefcoins">
                 <img src={clefImg} alt="clefcoin" />
