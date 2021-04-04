@@ -221,12 +221,14 @@
     height: 40px;
     font: 700 20px Quicksand, sans-serif;
     color: #BA181B;
+    cursor: pointer;
 }
 
-.footer .logo{
+.footer .logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .footer .logo img {
@@ -254,6 +256,7 @@
 
 .footer .social-media img {
     width: 50px;
+    cursor: pointer;
 }
 
 .footer .social-media .instagram {
