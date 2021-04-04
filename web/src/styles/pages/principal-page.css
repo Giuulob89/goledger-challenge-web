@@ -9,7 +9,7 @@
     height: 110px;
 }
 
-.navbar-content {
+.navbar .navbar-content {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,47 +19,72 @@
     color: #ffffff;
 }
 
+.navbar-content .logo {
+    margin-left: 10px;
+}
+
 .navbar-content .logo img {
     width: 70px;
+    cursor: pointer;
 }
 
 .navbar-content .bar-options {
-    margin-right: 500px;
     width: 25%;
 }
 
 .navbar-content .bar-options .search-bar {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
 }
 .navbar-content .bar-options .search-bar input{
-    border-radius: 5px;
+    border-radius: 6px;
+    border-color: transparent;
     outline-style: none;
+    opacity: 0.73;
+    width: 250px;
 }
 
 .navbar-content .bar-options .search-bar img {
     width: 20px;
-    margin-left: 5px;
+    margin-left: 8px;
 }
 
 .navbar-content .bar-options .options {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 100%;
     justify-content: space-between;
-    font: 700 17px Quicksand, sans-serif;  
+    font: 700 17px Quicksand, sans-serif;
+}
+
+.navbar-content .bar-options .options p {
+    margin-right: 10px;
+}
+
+.navbar-content .bar-options .options button {
+    width: 130px;
+    border-radius: 20px;
+    border-color: transparent;
+    height: 34px;
+    background: #E5383B 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    font: 700 17px Quicksand, sans-serif;
+    cursor: pointer;
 }
 
 .navbar-content .profile {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+    width: 50%;
 }
 
 .navbar-content .profile .profile-informations {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
 }
 
 .navbar-content .profile .profile-informations .profile-name {
@@ -67,16 +92,185 @@
     margin-right: 8px;
 }
 
-.navbar-content .profile .profile-informations .clefcoins {
+.navbar-content .profile .profile-informations .clefcoins, .all-products .cards .card .product-clefcoins {
     display: flex;
     flex-direction: row;
 }
 
-.navbar-content .profile .profile-informations .clefcoins img {
+.navbar-content .profile .profile-informations .clefcoins img, .all-products .cards .card .product-clefcoins img {
     width: 25px;
     margin-right: 5px;
 }
 
 .navbar-content .profile .profile-image img {
     width: 50px;
+}
+
+.page-style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-style img{
+    width: 90%;
+}
+
+.brands, .all-products {
+    text-align: center;
+    color: #B1A7A6;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.brands h2, .all-products h2 {
+    margin-bottom: 20px;
+}
+
+.brands img {
+    width: 80%;
+    cursor: pointer;
+}
+
+.brands .each-brand {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.brands .each-brand .brandA {
+    margin-right: 5px;
+}
+.brands .each-brand .brandB {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.brands .each-brand .brandC {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.brands .each-brand .brandD {
+    margin-left: 5px;
+}
+
+.all-products .cards {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.all-products .cards .card {
+    background-color: #E74B51;
+    width: 285px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.all-products .cards .card .card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.all-products .cards .card .card-content .product-image img {
+    width: 100px;
+}
+
+.all-products .cards .card .card-content .division-bar {
+    margin-top: 2px;
+	margin-bottom: 1rem;
+    border: 0;
+	border-top: 2.5px solid #BDB3B3;
+	box-sizing: content-box;
+  	height: 0;
+  	overflow: visible;
+    width: 100%;
+}
+
+.all-products .cards .card .card-content .product-name, .product-clefcoins {
+    margin-bottom: 10px;
+}
+
+.all-products .cards .card .card-content .product-name p, .product-clefcoins p {
+    color: #ffffff;
+}
+
+.all-products .cards .card .card-content .product-brand p {
+    color: #260303;
+    font: 700 17px Quicksand, sans-serif;
+    margin-bottom: 10px;
+}
+
+.all-products .cards .card .card-content .product-clefcoins p {
+    font: 700 17px Quicksand, sans-serif;
+}
+
+.all-products .cards .card .card-content button {
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    border-color: transparent;
+    width: 135px;
+    height: 40px;
+    font: 700 20px Quicksand, sans-serif;
+    color: #BA181B;
+}
+
+.footer .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .logo img {
+    width: 150px;
+}
+
+.footer .division-bar {
+    margin-top: 30px;
+	margin-bottom: 30px;
+    border: 0;
+	border-top: 2.5px solid #D3D3D3;
+	box-sizing: content-box;
+  	height: 0;
+  	overflow: visible;
+    width: 100%;
+}
+
+.footer .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer .social-media img {
+    width: 50px;
+}
+
+.footer .social-media .instagram {
+    margin-right: 10px;
+}
+
+.footer .social-media .facebook {
+    margin-left: 10px;
+}
+
+.footer .site-name {
+    background-color: #ffffff;
+    height: 100px;
+    margin-bottom: 0;
+    border: 1px solid #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
