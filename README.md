@@ -9,23 +9,33 @@ In this application you must implement a marketplace registration interface.
 
 - Use JavaScript Frameworks for development, such as **Vue** and **React** (all UI libraries are allowed)
 
-## Instructions
+## Chose Framework
 
-- Fork the repository https://github.com/goledgerdev/goledger-challenge-web
+For this challenge I chose React
+I did all the interface in it and tried to integrate to the given api
 
-  - Fork it, do **NOT** clone it, since you will need to send us your forked repository
-  - If you **cannot** fork it, create a private repository and give access to `samuelvenzi`, `igor-paiva` and `vieiramanoel` 
+## Instructions to execute the code
 
-- Create an web application using a JS Framework. You will implement the basic operations provided by the API, which are `Create`, `Update`, `Delete` and `Search`.
+- First, you clone this repository in your machine
+- Then, if you have `yarn` installed, you just have to open the project folder (web) in the terminal and execute `yarn start`
+- If you don't have `yarn` installed, is important that you install it and then follow the instructions given above
+- All the pages are linked. The `register page` is linked in the `login page`, the login page is linked in the `principal page`, the principal page is linked in the `announced-list page` and the annouced-list page is linked in the `register-product page` and in the `edit-product page`
 
-- Improve your application with a beautiful UI.
+## How the challenge went
 
-## Server
+I receveid the proposal of this challenge in the middle of a full week
+And, because of it, I had just the weekend to do all the job
+I spent a day doing a prototipe
+Then one more doing the interface in React
+And I let to learn how to integrate the api in the last day
+Unfortunately I coudn't do it
+I had a lot more to do, because of this full week
 
-The data are obtained using a rest server at this address: `http://ec2-54-173-117-139.compute-1.amazonaws.com/api/`
 
-Also, a Swagger with the endpoints specifications for the operations is provided at this address: `http://ec2-54-173-117-139.compute-1.amazonaws.com/api-docs/`
+## Conclusions
 
-## Complete the challenge
-
-To complete the challenge, you must send us the link to your forked repository with the code of your application. Please, provide instructions to execute the code.
+Despite everything, I'm proud, because I gave my best and I delivered a beautiful interface with just 2 days to do it
+I intend to continue this project, eventhought the deadline has passed
+I apreciate the oportunite the company gave to me and I hope that my effort can be considered, cause I'm capable of more
+With mentoring and help, I know I can do everything that a comporation needs
+And, I know too that if I have had a less full week, that I would deliver the complete project

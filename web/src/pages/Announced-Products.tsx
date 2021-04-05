@@ -13,14 +13,21 @@ import pencilImg from '../assets/edit.png';
 import trashImg from '../assets/delete.png';
 import instagramImg from '../assets/instagram.png';
 import facebookimg from '../assets/facebook.png';
+import { useEffect } from 'react';
+import api from '../services/api'
 
 function AnnouncedProducts() {
+  useEffect(() => {
+    api.get('message').then(response => {
+      console.log(response);
+    });
+  }, []);
   return (
     <div id="announced-products">
       <nav className="navbar">
         <div className="navbar-content">
           <div className="logo">
-            <Link to = "./Principal-Page"><img src={logoImg} alt="Mind your own Music" /></Link>
+            <Link to="./Principal-Page"><img src={logoImg} alt="Mind your own Music" /></Link>
           </div>
           <div className="bar-options">
             <div className="search-bar">
@@ -54,7 +61,7 @@ function AnnouncedProducts() {
       </div>
       <div className="anounced-products-list">
         <div className="list-content">
-          <Link to = "./New-announce"><button>Announce a new product</button></Link>
+          <Link to="./New-announce"><button>Announce a new product</button></Link>
           <div className="cards">
             <div className="card">
               <div className="card-content">
@@ -88,7 +95,7 @@ function AnnouncedProducts() {
                 </div>
                 <div className="edit-exclude">
                   <div className="edit">
-                    <Link to = "./Edit-Announce"><img src={pencilImg} alt="Edit" /></Link>
+                    <Link to="./Edit-Announce"><img src={pencilImg} alt="Edit" /></Link>
                   </div>
                   <div className="exclude">
                     <img src={trashImg} alt="Exclude" />
@@ -128,7 +135,7 @@ function AnnouncedProducts() {
                 </div>
                 <div className="edit-exclude">
                   <div className="edit">
-                  <Link to = "./Edit-Announce"><img src={pencilImg} alt="Edit" /></Link>
+                    <Link to="./Edit-Announce"><img src={pencilImg} alt="Edit" /></Link>
                   </div>
                   <div className="exclude">
                     <img src={trashImg} alt="Exclude" />

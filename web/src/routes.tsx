@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import AnnouncedProducts from './pages/Announced-Products';
 import PrincipalPage from './pages/Principal-Page';
 import NewAnnounce from './pages/New-announce';
