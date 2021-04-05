@@ -1,0 +1,101 @@
+#new-announce {
+    width: 100%;
+    height: 100%;
+}
+
+#new-announce .navbar-content .bar-options .options {
+    justify-content: flex-start;
+}
+
+#new-announce .navbar-content .bar-options .options p {
+    margin-right: 50px;
+}
+
+#new-announce .navbar-content .bar-options .options button {
+    display: none;
+}
+
+.product-register {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-register .image img {
+    width: 450px;
+}
+
+.product-register .forms {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+}
+
+.product-register .forms .forms-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-register .forms .h1 {
+    color: #161A1D;
+    display: flex;
+}
+
+.product-register .forms .insert-img {
+    background-color: #ffffff;
+    border: 1px solid #707070;
+    border-radius: 70px;
+    width: 140px;
+    height: 140px;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.product-register .forms .insert-img p {
+    text-align: center;
+}
+
+.product-register .forms .inputs {
+    width: 100%;
+}
+
+.product-register .forms .inputs .input, .inputs1 .input1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+}
+
+.product-register .forms .inputs .input label, .inputs1 .input1 label {
+    font: 700 16px Quicksand, sans-serif;
+    color: #660708;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.product-register .forms .inputs .input input {
+    width: 100%;
+    height: 55px;
+    border-radius: 15px;
+    border: 1px solid #707070;    
+    outline-style: none;
+    opacity: 0.8;
+}
+
+#new-announce .product-register .forms button {
+    width: 45%;
+    height: 60px;
+    border-radius: 15px;
+    border-color: transparent;
+    color: #BA181B;
+    background-color:#D3D3D3;
+    font: 700 20px Quicksand, sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+}

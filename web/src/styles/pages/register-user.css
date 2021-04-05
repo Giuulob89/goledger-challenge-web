@@ -1,0 +1,67 @@
+#register-user .product-register .image img {
+    width: 360px;
+}
+
+.product-register .forms .introduction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.product-register .forms .introduction img {
+    width: 70px;
+}
+
+.product-register .forms .introduction h3 {
+    margin-left: 10px;
+    color: #BDB3B3;
+}
+
+.product-register .forms .inputs .inputs1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+    width: 100%;
+}
+
+.product-register .forms .inputs .inputs1 .input1 input {
+    width: 98%;
+    height: 55px;
+    border-radius: 15px;
+    border: 1px solid #707070;    
+    outline-style: none;
+    opacity: 0.8;
+}
+
+.product-register .forms button {
+    width: 45%;
+    height: 60px;
+    border-radius: 15px;
+    border-color: transparent;
+    font: 700 20px Quicksand, sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color:#E5383B;
+}
+
+.product-register .forms .to-login {
+    margin-top: 30px;
+}
+
+.product-register .forms .to-login p {
+    text-decoration: underline;
+    color: #161A1D;
+    font: 600 20px Quicksand, sans-serif;
+    cursor: pointer;
+}
+
+.footer .logo img {
+    cursor: auto;
+}
+
+.footer .social-media img {
+    width: 40px;
+    cursor: auto;
+}
