@@ -33,7 +33,7 @@ function Login() {
                                 <input type="text" />
                             </div>
                         </div>
-                        <button>Register</button>
+                        <button>Login</button>
                         <div className="to-login">
                             <p>I don't have an account yet</p>
                         </div>
