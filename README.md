@@ -3,7 +3,7 @@
 In this challenge you will create a web interface to a blockchain application. 
 In this application you must implement a marketplace registration interface.
 
-# Requirements
+## Requirements
 
 - Your application should be able to add/remove/edit and show all products, categories and sellers.
 
