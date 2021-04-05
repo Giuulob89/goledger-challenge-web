@@ -210,6 +210,10 @@
     margin-bottom: 2px;
 }
 
+.all-products .cards .card .card-content .product-seller .seller-name {
+    color: #372F2F;
+}
+
 .all-products .cards .card .card-content .product-name p {
     color: #ffffff;
     font: 700 17px Quicksand, sans-serif;
