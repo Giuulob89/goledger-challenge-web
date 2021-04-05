@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import '../styles/pages/navbar-footer.css';
 import '../styles/pages/new-announce.css';
 import logoImg from '../assets/Design sem nome.png';
@@ -14,7 +16,7 @@ function EditAnnounce() {
             <nav className="navbar">
                 <div className="navbar-content">
                     <div className="logo">
-                        <img src={logoImg} alt="Mind your own Music" />
+                    <Link to = "./Principal-Page"><img src={logoImg} alt="Mind your own Music" /></Link>
                     </div>
                     <div className="bar-options">
                         <div className="search-bar">

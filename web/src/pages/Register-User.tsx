@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import '../styles/pages/navbar-footer.css';
 import '../styles/pages/new-announce.css';
 import '../styles/pages/register-user.css';
@@ -42,9 +44,9 @@ function RegisterUser() {
                                 </div>
                             </div>
                         </div>
-                        <button>Register</button>
+                        <button><Link to = "./Login" className = "link-to"><p>Register</p></Link></button>
                         <div className="to-login">
-                            <p>I already have an account</p>
+                            <Link to = "./Login"><p>I already have an account</p></Link>
                         </div>
                     </div>
                 </div>

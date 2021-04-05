@@ -53,6 +53,11 @@
     margin-left: 5px;
 }
 
+.brands .each-brand .brandA:hover, .brandB:hover, .brandC:hover, .brandD:hover {
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
 .all-products .cards {
     padding: 30px;
     display: flex;
@@ -67,6 +72,11 @@
     border-radius: 20px;
     margin-left: 10px;
     margin-bottom: 30px;
+}
+
+.all-products .cards .card:hover {
+    box-shadow: 0 0 2em #86090B;
+    transition: 0.5s;
 }
 
 .all-products .cards .card .card-content {
@@ -135,4 +145,8 @@
     color: #BA181B;
     cursor: pointer;
     outline-style: none;
+}
+
+.all-products .cards .card .card-content button:hover {
+    opacity: 0.7;
 }

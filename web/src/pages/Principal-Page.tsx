@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import '../styles/pages/principal-page.css';
 import '../styles/pages/navbar-footer.css';
 import logoImg from '../assets/Design sem nome.png';
@@ -25,7 +27,7 @@ function PrincipalPage() {
       <nav className="navbar">
         <div className="navbar-content">
           <div className="logo">
-            <img src={logoImg} alt="Mind your own Music" />
+            <Link to = "./Principal-Page"><img src={logoImg} alt="Mind your own Music" /></Link>
           </div>
           <div className="bar-options">
             <div className="search-bar">
@@ -35,7 +37,7 @@ function PrincipalPage() {
             <div className="options">
               <p>Categories</p>
               <p>Brands</p>
-              <button>Sell</button>
+              <Link to = "./Announced-Products"><button>Sell</button></Link>
             </div>
           </div>
           <div className="profile">
@@ -108,7 +110,7 @@ function PrincipalPage() {
                   <p>Seller: </p>
                 </div>
                 <div className="seller-name">
-                  <p>Fulano de Tal de Oliveira</p>
+                  <p>Fulano de Tal Oliveira</p>
                 </div>
               </div>
               <div className="product-clefcoins">
@@ -135,7 +137,7 @@ function PrincipalPage() {
                   <p>Seller: </p>
                 </div>
                 <div className="seller-name">
-                  <p>Fulano de Tal de Oliveira</p>
+                  <p>Fulano de Tal Oliveira</p>
                 </div>
               </div>
               <div className="product-clefcoins">
@@ -162,7 +164,7 @@ function PrincipalPage() {
                   <p>Seller: </p>
                 </div>
                 <div className="seller-name">
-                  <p>Fulano de Tal de Oliveira</p>
+                  <p>Fulano de Tal Oliveira</p>
                 </div>
               </div>
               <div className="product-clefcoins">
@@ -189,7 +191,7 @@ function PrincipalPage() {
                   <p>Seller: </p>
                 </div>
                 <div className="seller-name">
-                  <p>Fulano de Tal de Oliveira</p>
+                  <p>Fulano de Tal Oliveira</p>
                 </div>
               </div>
               <div className="product-clefcoins">

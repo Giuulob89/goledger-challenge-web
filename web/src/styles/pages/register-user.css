@@ -42,12 +42,30 @@
     font: 700 20px Quicksand, sans-serif;
     cursor: pointer;
     margin-top: 20px;
+    box-shadow: 0 0 40px 40px #E5383B inset, 0 0 0 0 #E5383B;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    outline-style: none;
+}
+
+.product-register .forms button .link-to {
+    text-decoration: none;
+}
+
+.product-register .forms button .link-to p {
     color: #ffffff;
-    background-color:#E5383B;
+}
+
+.product-register .forms button:hover {
+    background-color: #EC6F71;
 }
 
 .product-register .forms .to-login {
     margin-top: 30px;
+}
+
+.product-register .forms .to-login p:hover {
+    color: #3D4951;
 }
 
 .product-register .forms .to-login p {
@@ -55,13 +73,4 @@
     color: #161A1D;
     font: 600 20px Quicksand, sans-serif;
     cursor: pointer;
-}
-
-.footer .logo img {
-    cursor: auto;
-}
-
-.footer .social-media img {
-    width: 40px;
-    cursor: auto;
 }

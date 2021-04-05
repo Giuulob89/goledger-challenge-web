@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import '../styles/pages/navbar-footer.css';
 import '../styles/pages/announced-products.css';
 import logoImg from '../assets/Design sem nome.png';
@@ -18,7 +20,7 @@ function AnnouncedProducts() {
       <nav className="navbar">
         <div className="navbar-content">
           <div className="logo">
-            <img src={logoImg} alt="Mind your own Music" />
+            <Link to = "./Principal-Page"><img src={logoImg} alt="Mind your own Music" /></Link>
           </div>
           <div className="bar-options">
             <div className="search-bar">
@@ -52,7 +54,7 @@ function AnnouncedProducts() {
       </div>
       <div className="anounced-products-list">
         <div className="list-content">
-          <button>Anounce a new product</button>
+          <Link to = "./New-announce"><button>Announce a new product</button></Link>
           <div className="cards">
             <div className="card">
               <div className="card-content">
@@ -86,7 +88,7 @@ function AnnouncedProducts() {
                 </div>
                 <div className="edit-exclude">
                   <div className="edit">
-                    <img src={pencilImg} alt="Edit" />
+                    <Link to = "./Edit-Announce"><img src={pencilImg} alt="Edit" /></Link>
                   </div>
                   <div className="exclude">
                     <img src={trashImg} alt="Exclude" />
@@ -126,7 +128,7 @@ function AnnouncedProducts() {
                 </div>
                 <div className="edit-exclude">
                   <div className="edit">
-                    <img src={pencilImg} alt="Edit" />
+                  <Link to = "./Edit-Announce"><img src={pencilImg} alt="Edit" /></Link>
                   </div>
                   <div className="exclude">
                     <img src={trashImg} alt="Exclude" />

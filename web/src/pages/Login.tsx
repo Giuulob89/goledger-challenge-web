@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import '../styles/pages/navbar-footer.css';
 import '../styles/pages/new-announce.css';
 import '../styles/pages/register-user.css';
@@ -33,9 +35,9 @@ function Login() {
                                 <input type="text" />
                             </div>
                         </div>
-                        <button>Login</button>
+                        <button><Link to = "./Principal-Page" className = "link-to"><p>Login</p></Link></button>
                         <div className="to-login">
-                            <p>I don't have an account yet</p>
+                            <Link to = "/"><p>I don't have an account yet</p></Link>
                         </div>
                     </div>
                 </div>

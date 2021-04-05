@@ -23,6 +23,7 @@
 .navbar-content .logo img {
     width: 70px;
     cursor: pointer;
+    outline-style: none;
 }
 
 .navbar-content .bar-options {
@@ -70,6 +71,12 @@
     color: #ffffff;
     font: 700 17px Quicksand, sans-serif;
     cursor: pointer;
+    outline-style: none;
+    box-shadow: 0 3px 0 #7d0303
+}
+
+.navbar-content .bar-options .options button:hover {
+    box-shadow: none;
 }
 
 .navbar-content .profile {
@@ -114,7 +121,6 @@
 
 .footer .logo img {
     width: 150px;
-    cursor: pointer;
 }
 
 .footer .division-bar {
